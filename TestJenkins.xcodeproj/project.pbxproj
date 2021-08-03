@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		02C98C9226B8DC2F00797395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C98C9126B8DC2F00797395 /* Assets.xcassets */; };
 		02C98C9526B8DC2F00797395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C98C9326B8DC2F00797395 /* LaunchScreen.storyboard */; };
 		02C98C9826B8DC2F00797395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C98C9726B8DC2F00797395 /* main.m */; };
+		02C98D3526B92F4900797395 /* TTAbcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C98D3426B92F4900797395 /* TTAbcViewController.m */; };
 		105F25D8FB5A66CF4A6E467E /* Pods_TestJenkins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B72A83BB435256EA2662B1 /* Pods_TestJenkins.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		02C98C9426B8DC2F00797395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02C98C9626B8DC2F00797395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C98C9726B8DC2F00797395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C98D3326B92F4900797395 /* TTAbcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAbcViewController.h; sourceTree = "<group>"; };
+		02C98D3426B92F4900797395 /* TTAbcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAbcViewController.m; sourceTree = "<group>"; };
 		1B77235AA5EF31207467C2FE /* Pods-TestJenkins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJenkins.release.xcconfig"; path = "Target Support Files/Pods-TestJenkins/Pods-TestJenkins.release.xcconfig"; sourceTree = "<group>"; };
 		8E883CE21044D02023DE3C89 /* Pods-TestJenkins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJenkins.debug.xcconfig"; path = "Target Support Files/Pods-TestJenkins/Pods-TestJenkins.debug.xcconfig"; sourceTree = "<group>"; };
 		F6B72A83BB435256EA2662B1 /* Pods_TestJenkins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestJenkins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +82,8 @@
 				02C98C9326B8DC2F00797395 /* LaunchScreen.storyboard */,
 				02C98C9626B8DC2F00797395 /* Info.plist */,
 				02C98C9726B8DC2F00797395 /* main.m */,
+				02C98D3326B92F4900797395 /* TTAbcViewController.h */,
+				02C98D3426B92F4900797395 /* TTAbcViewController.m */,
 			);
 			path = TestJenkins;
 			sourceTree = "<group>";
@@ -97,7 +102,6 @@
 				8E883CE21044D02023DE3C89 /* Pods-TestJenkins.debug.xcconfig */,
 				1B77235AA5EF31207467C2FE /* Pods-TestJenkins.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C98C8D26B8DC2900797395 /* ViewController.m in Sources */,
+				02C98D3526B92F4900797395 /* TTAbcViewController.m in Sources */,
 				02C98C8726B8DC2900797395 /* AppDelegate.m in Sources */,
 				02C98C9826B8DC2F00797395 /* main.m in Sources */,
 				02C98C8A26B8DC2900797395 /* SceneDelegate.m in Sources */,
